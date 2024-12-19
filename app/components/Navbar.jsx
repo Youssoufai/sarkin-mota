@@ -3,7 +3,7 @@ const Navbar = () => {
         <>
             <nav className="p-7 flex items-center justify-between bg-white">
                 <div>
-                    <h1 className="text-3xl text-blue-500">Capital Cars</h1>
+                    <h1 className="text-3xl text-black font-serif">Capital Cars</h1>
                 </div>
                 <ul className="flex justify-between space-x-11">
                     <li>Home</li>
