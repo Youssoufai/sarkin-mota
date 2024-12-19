@@ -11,7 +11,7 @@ const Hero = () => {
           </form>
         </div>
         <div className="w-full">
-          <img src="sedan.png" className="w-5 h-5" alt="" />
+          <img src="sedan.png" className="w-20 h-20" alt="" />
         </div>
       </section>
     </>
