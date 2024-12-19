@@ -11,7 +11,7 @@ const About = () => {
                         <img src="toyota.jpeg" alt="toyota" />
                     </div>
                     <div>
-                        <img src="bmw.jpeg" alt="bmw" />
+                        <img src="bmw3.jpeg" alt="bmw" />
                     </div>
                 </section>
             </section>
