@@ -11,7 +11,19 @@ const About = () => {
                         <img src="toyota.jpeg" className="h-[100px] w-[100px]" alt="toyota" />
                     </div>
                     <div>
-                        <img src="bm.webp" alt="bmw" />
+                        <img src="mercedes.png" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="range.jpeg" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="kia.png" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="audi.png" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="nissan.jpeg" alt="bmw" />
                     </div>
                 </section>
             </section>
