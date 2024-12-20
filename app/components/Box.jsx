@@ -1,15 +1,16 @@
+import '../globals.css'
 const Box = () => {
     return (
         <>
             <section
-                className="h-screen p-11"
+                className="h-screen p-11 text-white bg-gray-200"
             >
                 <div
-                    className="bg-hero h-[400px] w-[496px] bg-center rounded-md flex justify-end"
+                    className="h-[400px] w-[496px] rounded-md flex flex-col justify-end space-y-4 p-4" id="gradient"
                 >
                     <h1 className="text-4xl">Book a Test Drive</h1>
 
-                    <p className="text-lg">Experience the thrill of driving your dream car. Schedule your test drive today and feel the difference!</p>
+                    <p>Experience the thrill of driving your dream car.</p>
 
                 </div>
                 <div></div>
