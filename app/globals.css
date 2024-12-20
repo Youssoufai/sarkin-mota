@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 #hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.427)), url('../public/stand4.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.427)), url('../public/bg3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

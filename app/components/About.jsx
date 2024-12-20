@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <>
-            <section className="h-screen p-8 space-y-7">
+            <section className="h-screen p-11 space-y-7">
                 <div className="space-y-4">
                     <h1 className="text-4xl">We deal with a wide range of brands</h1>
                     <p>Experience the Freedom of Choice with Our Extensive Range of Premium Cars, Tailored to Suit Every Style and Need!</p>
