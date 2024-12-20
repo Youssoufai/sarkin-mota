@@ -8,10 +8,10 @@ const About = () => {
                 </div>
                 <section className="flex">
                     <div>
-                        <img src="toyota.jpeg" alt="toyota" />
+                        <img src="toyota.jpeg" className="h-[100px] w-[100px]" alt="toyota" />
                     </div>
                     <div>
-                        <img src="bmw3.jpeg" alt="bmw" />
+                        <img src="bm.webp" alt="bmw" />
                     </div>
                 </section>
             </section>
