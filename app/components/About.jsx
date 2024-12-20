@@ -6,24 +6,24 @@ const About = () => {
                     <h1 className="text-4xl">We deal with a wide range of brands</h1>
                     <p>Experience the Freedom of Choice with Our Extensive Range of Premium Cars, Tailored to Suit Every Style and Need!</p>
                 </div>
-                <section className="flex">
+                <section className="flex items-center">
                     <div>
                         <img src="toyota.jpeg" className="h-[100px] w-[100px]" alt="toyota" />
                     </div>
                     <div>
-                        <img src="mercedes.png" alt="bmw" />
+                        <img src="mercedes.png" className="h-[100px] w-[100px]" alt="bmw" />
                     </div>
                     <div>
-                        <img src="range.jpeg" alt="bmw" />
+                        <img src="range.jpeg" className="h-[100px] w-[100px]" alt="bmw" />
                     </div>
                     <div>
-                        <img src="kia.png" alt="bmw" />
+                        <img src="kia.png" className="h-[100px] w-[100px]" alt="bmw" />
                     </div>
                     <div>
-                        <img src="audi.png" alt="bmw" />
+                        <img src="audi.png" className="h-[100px] w-[100px]" alt="bmw" />
                     </div>
                     <div>
-                        <img src="nissan.jpeg" alt="bmw" />
+                        <img src="nissan.jpeg" className="h-[100px] w-[100px]" alt="bmw" />
                     </div>
                 </section>
             </section>
