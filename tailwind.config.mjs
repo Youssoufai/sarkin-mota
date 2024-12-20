@@ -12,7 +12,7 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        'hero': "url('/public/bg.jpg')"
+        'hero': "url('/dealer.webp')"
       },
       fontFamily: {
         parkinsans: ['Parkinsans', 'sans-serif'],
