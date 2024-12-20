@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-#hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.427)), url('../public/bg3.jpg');
+
+
+/* styles/globals.css */
+body {
+    font-family: 'Parkinsans', 'Raleway', 'Yrsa', sans-serif;
+}
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.427)), url('../public/bg3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

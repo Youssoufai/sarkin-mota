@@ -14,6 +14,11 @@ export default {
       backgroundImage: {
         'hero': "url('/public/bg.jpg')"
       },
+      fontFamily: {
+        parkinsans: ['Parkinsans', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+        yrsa: ['Yrsa', 'serif'],
+      },
     },
   },
   plugins: [],
