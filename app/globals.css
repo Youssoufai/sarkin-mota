@@ -16,5 +16,11 @@ body {
 }
 
 #gradient {
-    background: linear-gradient(#00000051, rgba(0, 0, 0, 0.358)), url('../public/dealer.webp');
+    background: linear-gradient(#00000051, rgba(0, 0, 0, 0.358)), url('../public/bg4.jpg');
+    background-repeat: no-repeat;
+}
+
+#gradient2 {
+    background: linear-gradient(#00000051, rgba(0, 0, 0, 0.358)), url('../public/inv.jpg');
+    background-repeat: no-repeat;
 }

@@ -2,7 +2,7 @@ import { FaCar, FaDollarSign, FaHeadset, FaWallet } from 'react-icons/fa';
 const Features = () => {
     return (
         <>
-            <section className="h-screen bg-gray-200 text-black p-11">
+            <section className="h-screen text-black p-11">
                 <h1 className="text-4xl text-center">What We Do.</h1>
                 <section className="w-full space-x-4 p-8 flex items-center h-[80%]">
                     <div className='space-y-3 flex flex-1 space-x-4'>
