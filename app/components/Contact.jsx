@@ -1,13 +1,13 @@
 const Contact = () => {
     return (
         <>
-            <section className="h-screen bg-gray-200 p-11 flex">
-                <div className="w-1/2 pr-5">
+            <section className="h-screen bg-gray-200 p-5 md:p-11 flex flex-col md:flex-row">
+                <div className="w-full md:w-1/2 pr-0 md:pr-5">
                     <h1 className="text-3xl">Get in Contact</h1>
                     <p className="mt-4">We would love to hear from you! Please fill out the form on the right to get in touch with us.</p>
                     <p className="mt-2">Whether you have a question, feedback, we are here to help!</p>
                 </div>
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <form className="mt-5">
                         <div className="mb-4">
                             <label className="block text-gray-700" htmlFor="name">Name</label>
@@ -28,5 +28,4 @@ const Contact = () => {
         </>
     )
 }
-
 export default Contact

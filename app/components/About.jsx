@@ -1,61 +1,59 @@
 const About = () => {
     return (
         <>
-            <section className="h-screen p-14 bg-gray-200 space-y-7">
+            <section className="h-full p-14 bg-gray-200 space-y-7 overflow-hidden">
                 <div className="space-y-4">
-                    <h1 className="text-4xl">We deal with a wide range of brands</h1>
-                    <p>Experience the Freedom of Choice with Our Extensive Range of Premium Cars, Tailored to Suit Every Style and Need!</p>
+                    <h1 className="text-4xl md:text-5xl">We deal with a wide range of brands</h1>
+                    <p className="text-base md:text-lg">Experience the Freedom of Choice with Our Extensive Range of Premium Cars, Tailored to Suit Every Style and Need!</p>
                 </div>
-                <section className="flex items-center pt-20 space-x-3">
-                    <div>
-                        <img src="toyota2.png" className="h-[100px] w-[200px]" alt="toyota" />
+                <section className="flex flex-wrap items-center pt-20 space-x-3 space-y-3">
+                    <div className="flex-shrink-0">
+                        <img src="toyota2.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="toyota" />
                     </div>
-                    <div>
-                        <img src="mercedes2.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    <div className="flex-shrink-0">
+                        <img src="mercedes2.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
                     </div>
-                    <div>
-                        <img src="mitsubishi.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    <div className="flex-shrink-0">
+                        <img src="mitsubishi.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
                     </div>
-                    <div>
-                        <img src="kia2.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    <div className="flex-shrink-0">
+                        <img src="kia2.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
                     </div>
-                    <div>
-                        <img src="porsche.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    <div className="flex-shrink-0">
+                        <img src="porsche.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
                     </div>
-                    <div>
-                        <img src="nissan2.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    <div className="flex-shrink-0">
+                        <img src="nissan2.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
                     </div>
-                    <div>
-                        <img src="cadillac.png" className="h-[100px] w-[200px]" alt="bmw" />
-                    </div>
-                </section>
-                <section className="flex items-center pt-20 space-x-3">
-                    <div>
-                        <img src="volvo.png" className="h-[100px] w-[200px]" alt="toyota" />
-                    </div>
-                    <div>
-                        <img src="land-rover.png" className="h-[100px] w-[200px]" alt="bmw" />
-                    </div>
-                    <div>
-                        <img src="lincolcn.png" className="h-[100px] w-[200px]" alt="bmw" />
-                    </div>
-                    <div>
-                        <img src="mazda.png" className="h-[100px] w-[200px]" alt="bmw" />
-                    </div>
-                    <div>
-                        <img src="golf.png" className="h-[100px] w-[200px]" alt="bmw" />
-                    </div>
-                    <div>
-                        <img src="hyundai.png" className="h-[100px] w-[200px]" alt="bmw" />
-                    </div>
-                    <div>
-                        <img src="mini.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    <div className="flex-shrink-0">
+                        <img src="cadillac.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
                     </div>
                 </section>
-
+                <section className="flex flex-wrap items-center pt-20 space-x-3 space-y-3">
+                    <div className="flex-shrink-0">
+                        <img src="volvo.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="toyota" />
+                    </div>
+                    <div className="flex-shrink-0">
+                        <img src="land-rover.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
+                    </div>
+                    <div className="flex-shrink-0">
+                        <img src="lincolcn.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
+                    </div>
+                    <div className="flex-shrink-0">
+                        <img src="mazda.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
+                    </div>
+                    <div className="flex-shrink-0">
+                        <img src="golf.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
+                    </div>
+                    <div className="flex-shrink-0">
+                        <img src="hyundai.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
+                    </div>
+                    <div className="flex-shrink-0">
+                        <img src="mini.png" className="h-[100px] w-[200px] md:h-[120px] md:w-[240px]" alt="bmw" />
+                    </div>
+                </section>
             </section>
         </>
     )
 }
-
 export default About;
