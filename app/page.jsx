@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Box from "./components/Box";
+import Deals from "./components/Deals";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
       <Box />
       <Features />
       <About />
+      <Deals />
     </>
   );
 }

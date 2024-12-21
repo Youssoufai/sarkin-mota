@@ -29,6 +29,30 @@ const About = () => {
                         <img src="cadillac.png" className="h-[100px] w-[200px]" alt="bmw" />
                     </div>
                 </section>
+                <section className="flex items-center pt-20 space-x-3">
+                    <div>
+                        <img src="volvo.png" className="h-[100px] w-[200px]" alt="toyota" />
+                    </div>
+                    <div>
+                        <img src="land-rover.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="lincolcn.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="mazda.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="golf.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="hyundai.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    </div>
+                    <div>
+                        <img src="mini.png" className="h-[100px] w-[200px]" alt="bmw" />
+                    </div>
+                </section>
+
             </section>
         </>
     )
