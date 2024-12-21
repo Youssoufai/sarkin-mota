@@ -3,7 +3,7 @@ import { FaTachometerAlt, FaGasPump, FaCar } from 'react-icons/fa'; // Importing
 const Deals = () => {
     return (
         <>
-            <section className="bg-white text-black h-screen p-11">
+            <section className="bg-white text-black h-full p-11">
                 <div>
                     <h1 className="text-4xl">Our Deals</h1>
                 </div>
