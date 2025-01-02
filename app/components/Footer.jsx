@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <>
-            <section className="h-[70vh] bg-black text-white flex flex-col items-center justify-center">
+            <section className="h-screen bg-black text-white flex flex-col items-center justify-center">
                 <div className="text-center">
                     <h2 className="text-2xl font-bold">Stay Connected</h2>
                     <p className="mt-2">Follow us on our social media channels</p>

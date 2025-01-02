@@ -12,7 +12,8 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        'hero': "url('/dealer.webp')"
+        'hero': "linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.427)), url('/dealer.webp')",
+        'client': "linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.427)), url('/fact-bg.jpg')"
       },
       fontFamily: {
         parkinsans: ['Parkinsans', 'sans-serif'],
