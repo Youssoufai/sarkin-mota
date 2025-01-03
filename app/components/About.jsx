@@ -3,7 +3,7 @@ const About = () => {
         <>
             <section className="h-full p-14 bg-gray-200 space-y-7 overflow-hidden">
                 <div className="space-y-4">
-                    <h1 className="text-4xl md:text-5xl">We deal with a wide range of brands</h1>
+                    <h1 className="text-4xl md:text-5xl">We deal with a wide range of <span className="text-[#EA001E]">Brands</span></h1>
                     <p className="text-base md:text-lg">Experience the Freedom of Choice with Our Extensive Range of Premium Cars, Tailored to Suit Every Style and Need!</p>
                 </div>
                 <section className="flex flex-wrap items-center pt-20 space-x-3 space-y-3">

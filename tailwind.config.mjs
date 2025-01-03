@@ -10,6 +10,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        red: "#EA001E"
       },
       backgroundImage: {
         'hero': "linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.427)), url('/dealer.webp')",

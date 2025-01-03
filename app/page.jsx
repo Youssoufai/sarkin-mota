@@ -6,6 +6,7 @@ import Curve from "./components/Curve";
 import Deals from "./components/Deals";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
+import Luxury from "./components/Luxury";
 import Tile from "./components/Tile";
 
 export default function Home() {
