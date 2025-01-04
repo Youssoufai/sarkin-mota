@@ -1,7 +1,10 @@
 'use client'
 
 import AboutHero from "../components/AboutHero";
+import Client from "../components/Client";
 import Desc from "../components/Desc";
+import Mission from "../components/Mission";
+import Process from "../components/Process";
 
 const Page = () => {
     return (
@@ -13,6 +16,9 @@ const Page = () => {
 
             </section>
             <Desc />
+            <Mission />
+            <Client />
+            <Process />
         </>
     )
 }
