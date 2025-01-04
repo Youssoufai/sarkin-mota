@@ -7,9 +7,9 @@ import Review from '../components/Review'
 const Page = () => {
   return (
     <>
-      <section className="h-[75vh] bg-hero flex justify-center items-center bg-center bg-no-repeat bg-cover text-white p-11">
+      <section className="h-[75vh] bg-hero flex justify-center bg-center bg-no-repeat bg-cover text-white p-11">
         <div className="text-center">
-          <h1 className="text-6xl">Our Services</h1>
+          <h1 className="text-6xl mt-8">Our Services</h1>
         </div>
       </section>
       <Service />

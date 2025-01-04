@@ -1,10 +1,11 @@
 'use client'
 import React from 'react'
+import ContactHero from '../components/ContactHero'
 
 const page = () => {
     return (
         <>
-            <h1>Contact</h1>
+            <ContactHero />
         </>
     )
 }
