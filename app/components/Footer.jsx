@@ -1,21 +1,18 @@
-import { FaLocationArrow } from "react-icons/fa";
+import { FaEnvelope, FaEnvelopeOpen, FaInstagram, FaLinkedin, FaLocationArrow, FaPhone, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
     return (
         <>
-            <section className="h-full p-11 bg-black text-white flex flex-col items-center justify-center">
-                <section>
+            <section className="h-full p-11 bg-black text-white flex  items-center space-x-12">
+                <section className="flex-1">
                     <h1 className="text-5xl">About Us</h1>
                     <p>Cars are not just our business, they are our
                         very soul; they are the life-blood that cruises
-                        through our veins and the drumbeats that make our heart sing.
-                        At Pivot Motors, we deliver everything related to brand new vehicles, which
-                        includes: selling, servicing, accessorizing, expert consulting, and lots more. So, when next you’re searching for the best car dealers in Lagos and Nigeria at
-                        large, consider stopping by at Pivot Motors show room for a touch of luxury.</p>
+                        through our veins and the drumbeats that make our heart sing.</p>
 
                     <input type="text" placeholder="Enter you email" />
                 </section>
-                <section>
+                <section className="flex-1">
                     <h1 className="text-5xl">Quick Links</h1>
                     <ul>
                         <li>Home</li>
@@ -25,7 +22,7 @@ const Footer = () => {
                         <li>Contact</li>
                     </ul>
                 </section>
-                <section>
+                <section className="flex-1">
                     <h1 className="text-5xl">Buisness Hours</h1>
 
                     <div>
@@ -44,13 +41,24 @@ const Footer = () => {
                     </div>
 
                 </section>
-                <section>
+                <section className="flex-1">
                     <h1 className="text-5xl">Contact Info</h1>
                     <ul>
                         <li> <FaLocationArrow /> 123 STREET, Abuja, Nigeria.</li>
-                        <li>Info@capitalcars.com</li>
-                        <li>+024355237</li>
-                        <li>+934847739</li>
+                        <li> <FaEnvelope /> Info@capitalcars.com</li>
+                        <li> <FaPhone /> +024355237</li>
+                        <li> <FaWhatsapp /> +934847739</li>
+                    </ul>
+                    <ul className="flex">
+                        <li>
+                            <FaInstagram />
+                        </li>
+                        <li>
+                            <FaTwitter />
+                        </li>
+                        <li>
+                            <FaLinkedin />
+                        </li>
                     </ul>
                 </section>
             </section>
