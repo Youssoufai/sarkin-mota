@@ -1,11 +1,15 @@
 'use client'
 import React from 'react'
 import ContactHero from '../components/ContactHero'
+import ContactSection from '../components/ContactSection'
 
 const page = () => {
     return (
         <>
-            <ContactHero />
+            <section className='h-screen bg-hero bg-center bg-cover p-11'>
+                <h1 className='text-white text-5xl text-center pt-12'>Contact Us</h1>
+            </section>
+            <ContactSection />
         </>
     )
 }
