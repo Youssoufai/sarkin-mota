@@ -13,7 +13,7 @@ export default {
         red: "#EA001E"
       },
       backgroundImage: {
-        'hero': "linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.427)), url('/dealer.webp')",
+        'hero': "linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.427)), url('/bg3.jpg')",
         'client': "linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.427)), url('/fact-bg.jpg')"
       },
       fontFamily: {
