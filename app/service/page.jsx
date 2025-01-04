@@ -1,10 +1,20 @@
 'use client'
 import React from 'react'
+import Service from '../components/Service'
+import Client from '../components/Client'
+import Review from '../components/Review'
 
 const Page = () => {
   return (
     <>
-      <h1>Services</h1>
+      <section className="h-[75vh] bg-hero flex justify-center items-center bg-center bg-no-repeat bg-cover text-white p-11">
+        <div className="text-center">
+          <h1 className="text-6xl">Our Services</h1>
+        </div>
+      </section>
+      <Service />
+      <Review />
+      <Client />
     </>
   )
 }
