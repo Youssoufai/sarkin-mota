@@ -27,7 +27,7 @@ const Deals = () => {
                             </div>
                         </div>
                         <div className='flex flex-col space-y-8'>
-                            <button className='text-black text-xl bg-white rounded-full px-11 py-2'>View our Inventory</button>
+                            <button className='text-red text-xl bg-white rounded-full px-11 py-2'>View our Inventory</button>
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-col gap-3 bg-gray-400 text-white p-4 md:p-8 rounded-lg w-[550px] h-full"> {/* Adjusted padding and width */}
@@ -47,7 +47,7 @@ const Deals = () => {
                             </div>
                         </div>
                         <div className='flex flex-col space-y-8'>
-                            <button className='text-black text-xl bg-white rounded-full px-11 py-2'>View our Inventory</button>
+                            <button className='text-red text-xl bg-white rounded-full px-11 py-2'>View our Inventory</button>
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-col gap-3 bg-gray-400 text-white p-4 md:p-8 rounded-lg w-[550px] h-full"> {/* Adjusted padding and width */}
@@ -67,7 +67,7 @@ const Deals = () => {
                             </div>
                         </div>
                         <div className='flex flex-col space-y-8'>
-                            <button className='text-black text-xl bg-white rounded-full px-11 py-2'>View our Inventory</button>
+                            <button className='text-red text-xl bg-white rounded-full px-11 py-2'>View our Inventory</button>
                         </div>
                     </div>
                 </section>

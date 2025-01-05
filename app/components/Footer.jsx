@@ -10,7 +10,10 @@ const Footer = () => {
                         very soul; they are the life-blood that cruises
                         through our veins and the drumbeats that make our heart sing.</p>
 
-                    <input type="text" className="py-2 px-8" placeholder="Enter you email" />
+                    <div className="flex gap-3">
+                        <input type="text" className="py-3 p-4 text-black rounded-lg px-11" placeholder="Enter your email" />
+                        <button className="text-red bg-white rounded-lg py-3 px-6">Submit</button>
+                    </div>
                 </section>
                 <section className="flex-1 space-y-10">
                     <h1 className="text-5xl">Quick Links</h1>
