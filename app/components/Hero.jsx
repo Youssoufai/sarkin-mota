@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <section className="h-screen p-11 flex items-center justify-center" id="hero">
-        <div className="space-y-3 mr-28 text-center md:mr-0">
+      <section className="h-screen p-5 md:p-11 flex items-center justify-center" id="hero"> {/* Adjusted padding for smaller screens */}
+        <div className="space-y-3 text-center md:mr-0"> {/* Removed margin for smaller screens */}
           <motion.h1
-            className="text-4xl text-white"
+            className="text-3xl md:text-4xl text-white"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -17,7 +17,7 @@ const Hero = () => {
             Welcome to Capital <span className="text-[#EA001E]">Cars</span>
           </motion.h1>
           <motion.h2
-            className="text-white"
+            className="text-lg md:text-xl text-white"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
