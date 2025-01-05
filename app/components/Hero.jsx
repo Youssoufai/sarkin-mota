@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <section className="h-screen p-5 md:p-11 flex items-center justify-center" id="hero"> {/* Adjusted padding for smaller screens */}
+      <section className="h-screen p-5 md:p-11 flex items-center justify-center bg-hero bg-center bg-cover bg-no-repeat"> {/* Adjusted padding for smaller screens */}
         <div className="space-y-3 text-center md:mr-0"> {/* Removed margin for smaller screens */}
           <motion.h1
             className="text-3xl md:text-4xl text-white"
