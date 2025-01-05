@@ -10,11 +10,10 @@ import Process from "../components/Process";
 const Page = () => {
     return (
         <>
-            <section className="h-[75vh] bg-hero flex justify-center bg-center bg-no-repeat bg-cover text-white p-11">
+            <section className="h-[60vh] md:h-[75vh] bg-hero flex justify-center bg-center bg-no-repeat bg-cover text-white p-5 md:p-11"> {/* Adjusted height and padding for responsiveness */}
                 <div className="text-center">
-                    <h1 className="text-6xl mt-10 text-center">About Us</h1>
+                    <h1 className="text-4xl md:text-6xl mt-10">About Us</h1> {/* Responsive font size */}
                 </div>
-
             </section>
             <Desc />
             <Mission />
@@ -24,6 +23,5 @@ const Page = () => {
         </>
     )
 }
-
 export default Page;
 

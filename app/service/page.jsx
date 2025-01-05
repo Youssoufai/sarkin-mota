@@ -7,9 +7,9 @@ import Review from '../components/Review'
 const Page = () => {
   return (
     <>
-      <section className="h-[75vh] bg-hero flex space-y-8 justify-center bg-center bg-no-repeat bg-cover text-white p-11">
+      <section className="h-[60vh] md:h-[75vh] bg-hero flex flex-col justify-center bg-center bg-no-repeat bg-cover text-white p-5 md:p-11"> {/* Adjusted height and padding for responsiveness */}
         <div className="text-center">
-          <h1 className="text-6xl mt-8">Our Services</h1>
+          <h1 className="text-4xl md:text-6xl mt-8">Our Services</h1> {/* Responsive font size */}
         </div>
       </section>
       <Service />
@@ -18,5 +18,4 @@ const Page = () => {
     </>
   )
 }
-
 export default Page
