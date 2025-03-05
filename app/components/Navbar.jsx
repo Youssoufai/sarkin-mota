@@ -19,7 +19,7 @@ const Navbar = () => {
         <>
             <nav className="bg-black text-white p-4">
                 <div className="flex items-center justify-between">
-                    <h1 className="text-3xl md:text-5xl font-bold">Manga <span className="text-[#EA001E]">Autos</span></h1>
+                    <h1 className="text-3xl md:text-5xl font-bold">DIDI <span className="text-[#EA001E]">Autos</span></h1>
                     <button
                         className="md:hidden text-2xl"
                         onClick={() => setIsOpen(!isOpen)}

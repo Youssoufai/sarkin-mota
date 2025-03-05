@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "Manga Automobiles",
-  description: "Manga Autos LTD",
+  title: "Didi Automobiles",
+  description: "Didi Autos LTD",
 };
 
 export default function RootLayout({ children }) {
