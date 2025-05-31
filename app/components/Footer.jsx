@@ -44,7 +44,7 @@ const Footer = () => {
                     <h1 className="text-3xl md:text-5xl text-left md:text-center">Contact Info</h1> {/* Responsive font size */}
                     <ul className="space-y-4">
                         <li className="flex"> <FaLocationArrow className="mx-4" /> 123 STREET, Abuja, Nigeria.</li>
-                        <li className="flex"> <FaEnvelope className="mx-4" /> Info@mangautos.com</li>
+                        <li className="flex"> <FaEnvelope className="mx-4" /> Info@sarkinmota.com</li>
                         <li className="flex"> <FaPhone className="mx-4" /> +024355237</li>
                         <li className="flex"> <FaWhatsapp className="mx-4" /> +934847739</li>
                     </ul>
