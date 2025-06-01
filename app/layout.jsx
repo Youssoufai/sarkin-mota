@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "Didi Automobiles",
-  description: "Didi Autos LTD",
+  title: "Sarkin Mota Automobiles",
+  description: "Sarkin Mota Automobiles Official Website",
 };
 
 export default function RootLayout({ children }) {
